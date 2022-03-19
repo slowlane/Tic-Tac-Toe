@@ -2,7 +2,7 @@ const playerFactory = (name, number) => {
     let tiles = 0;
     let hasWon = false;
     const getNumber = () => number;
-    const setTiles = () => {tiles++; console.log(tiles);}
+    const setTiles = () => tiles++;
     const getTiles = () => tiles;
     const resetTiles = (number) => tiles = number; 
     const setName = (newName) => name = newName;
